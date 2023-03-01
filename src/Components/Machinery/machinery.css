@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+.machinery_div
+{
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+}
+
+.machinery_div p
+{
+    color: rgb(163, 163, 163);
+    line-height: 32px;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.machinery_div h2
+{
+    margin: 25px 0;
+    padding: 0;
+    color: rgb(27, 179, 179);
+    font-size: 28px;
+    font-weight: 300;
+}
+.machinery_div h3
+{
+    margin: 20px 0;
+    padding: 0;
+    color: rgb(27, 179, 179);
+    font-size: 22px;
+}
+
+.machinery_div p ul
+{
+    margin: 10px;
+    padding: 0 0 0 10px;
+}
+.machinery_div p ul li
+{
+    line-height: 32px;
+    text-transform: none;
+}
+.machinery_div img
+{
+    margin: 10px 0;
+    transition: ease-in 0.3s;
+}
+
+.machinery_div img:hover
+{
+    transform: scale(1.03);
+}
+
+@media screen and (min-width:350px) 
+
+{ 
+    .machinery_div img
+    {
+        width: 351px;
+    }
+
+}
+
+@media screen and (min-width:400px) 
+
+{ 
+    .machinery_div img
+    {
+        width: 390px;
+    }
+
+}
+
+@media screen and (min-width:700px) 
+
+{ 
+    .machinery_div img
+    {
+        width: 336px;
+    }
+
+}
+
+@media screen and (min-width:1020px) 
+
+{ 
+    .machinery_div img
+    {
+        width: 615px;
+    }
+
+}
+@media screen and (min-width:1279px) 
+
+{ 
+    .machinery_div img
+    {
+        width: 736px;
+    }
+
+}

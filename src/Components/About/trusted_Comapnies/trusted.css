@@ -1,0 +1,14 @@
+.logos img
+{
+    width: 155px;
+}
+
+@media screen and (min-width:350px) 
+
+{ 
+    .logos img
+    {
+        width: 120px;
+    }
+
+}

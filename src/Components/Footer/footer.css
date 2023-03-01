@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#container
+{
+    /* background-color: black; */
+    color: black;
+
+}
+.footer{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(240, 239, 239);
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+  }
+  h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  span {
+    color: rgb(27, 179, 179);
+  } 
+a
+{
+    text-decoration: none;
+    color:#6C757D;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+a:hover
+{
+    padding-right:2rem;
+    color: rgb(27, 179, 179);
+}
+.active
+{
+    color: rgb(27, 179, 179);
+    font-weight: 300;
+}
+.btn
+{
+    color: white;
+    background-color:rgb(27, 179, 179) ;
+}
+li
+{
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+#s_icons
+{
+    color: #6C757D;
+    margin-left: 10px;
+    font-size: 14px;
+}
+#s_icons:hover
+{
+    color: rgb(27, 179, 179);
+}
+
+.fa-facebook-f, .fa-instagram , .fa-twitter , .fa-linkedin , .fa-pinterest, .fa-youtube
+{
+    color: rgb(27, 179, 179);
+}
+p{
+    text-align: justify;
+}
+

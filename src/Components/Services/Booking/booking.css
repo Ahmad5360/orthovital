@@ -1,0 +1,716 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+.header_div10 {
+  background: linear-gradient(
+      0deg,
+      rgba(14, 102, 102, 0.3),
+      rgba(22, 99, 99, 0.2)
+    ),
+    url(../../Home/Carousel/carousel_images/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+  max-height: 100px;
+  font-family: "Rubik", sans-serif;
+  text-align: left;
+  color: white;
+  font-weight: 800;
+  background-position: 100% 20%;
+}
+
+.row_div2 {
+  margin-top: 30px;
+}
+
+.O_div h2 {
+  font-size: 25px;
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  color: rgb(71, 71, 71);
+  margin-bottom: 20px;
+}
+.O_div p {
+  font-size: 18px;
+  text-align: justify;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.b_form {
+  text-align: left;
+  margin: 30px 0;
+  font-family: "Rubik", sans-serif;
+}
+
+input :focus {
+  border-color: rgb(27, 179, 179);
+}
+
+label {
+  margin-top: 25px;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  padding-left: 140px;
+  margin-right: -98px;
+}
+
+#time {
+  padding: 12px 175px 13px 10px;
+  margin-top: 10px;
+}
+
+#services_drop {
+  padding: 12px 130px 13px 8px;
+  margin-top: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#name,
+#email,
+#phone,
+#date,
+#price
+{
+  padding: 10px 120px 10px 10px;
+  margin-top: 10px;
+}
+
+
+#h_service
+{
+    margin-right: 5px;
+}
+
+#message
+{
+    margin: 20px 0 30px 10px;
+    max-width: 650px;
+    margin-left: 10px;
+}
+
+.sub_btn
+{
+    max-width: 140px;
+}
+
+#submit
+{
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(27, 179, 179);
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#submit:hover
+{
+    color: rgb(46, 46, 46);
+    background-color: transparent;
+    border-color: rgb(27, 179, 179);
+    
+}
+
+#name:focus , #email:focus , #phone:focus , #date:focus , #time:focus , #services_drop:focus , #message:focus , #price:focus
+{
+  outline: none;
+  border: 2px solid rgb(27, 179, 179);
+}
+
+.b_form2 {
+  margin-left: 150px;
+}
+
+.modal
+{
+    font-family: "Rubik", sans-serif;
+}
+
+.close
+{
+    border-color: rgb(27, 179, 179);
+    border-radius: 3px;
+
+}
+.close:hover
+{
+    color: rgb(46, 46, 46);
+    background-color: transparent;
+    border-color: rgb(27, 179, 179);
+}
+
+@media screen and (min-width: 350px) 
+
+{
+    .b_form2 
+    {
+        margin-left: 0px;
+    }
+
+    #message
+    {
+        margin: 20px 0 30px 0px;
+        max-width: 315px;
+        
+    }
+
+}
+@media screen and (min-width: 380px) 
+
+{
+    .b_form2 
+    {
+        margin-left: 0px;
+    }
+
+    #message
+    {
+        margin: 20px 0 30px 0px;
+        max-width: 315px;
+    }
+
+    #name,
+    #email,
+    #phone,
+    #date,
+    #price
+    {
+        padding: 10px 120px 10px 10px;
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+      
+    #services_drop 
+    {
+        padding: 12px 130px 13px 8px;
+        margin-top: 10px;
+        margin-right: 50px;
+
+    }
+
+    label 
+    {
+        margin-top: 25px;
+    }
+}
+@media screen and (min-width: 400px) 
+
+{
+    .b_form 
+    {
+        margin-left: 10px;
+    }
+    
+    .b_form2 
+    {
+        margin-left: 0px;
+    }
+
+    #message
+    {
+        margin: 20px 0 30px 0px;
+        max-width: 315px;
+    }
+
+    #name,
+    #email,
+    #phone,
+    #date,
+    #price
+    {
+        padding: 10px 120px 10px 10px;
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+      
+    #services_drop 
+    {
+        padding: 12px 130px 13px 8px;
+        margin-top: 10px;
+        margin-right: 50px;
+
+    }
+}
+
+@media screen and (min-width: 701px) 
+
+{
+    .b_form 
+    {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    
+    .b_form2 
+    {
+        margin-left: 100px;
+        font-size: 16px;
+
+    }
+    #time 
+    {
+        padding: 12px 55px 13px 10px;
+        margin-top: 15px;
+    }
+      
+    #services_drop 
+    {
+        padding: 12px 10px 13px 8px;
+        margin-top: 10px;
+    }
+
+    #date
+    {
+        padding: 10px 0px 10px 10px;
+        margin-top: 15px;
+        margin-right: 0;
+    }
+
+    input[type="date"]::-webkit-inner-spin-button,
+    input[type="date"]::-webkit-calendar-picker-indicator 
+    {
+        padding-left: 132px;
+        margin-right: -95px;
+    }
+
+    #name,
+    #email,
+    #phone,
+    #price
+    {
+        padding: 10px 0px 10px 10px;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+
+    .h_service
+    {
+        max-width: 150px;
+        width: 140px;
+    }
+    #h_service
+    {
+        margin-right: 5px;
+    }
+
+    #message
+    {
+        margin: 25px 0 15px 0px;
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 819px) 
+
+{
+    .b_form 
+    {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    
+    .b_form2 
+    {
+        margin-left: 100px;
+        font-size: 16px;
+
+    }
+    #time 
+    {
+        padding: 12px 55px 13px 10px;
+        margin-top: 20px;
+    }
+      
+    #services_drop 
+    {
+        padding: 12px 10px 13px 8px;
+        margin-top: 20px;
+    }
+
+    #date
+    {
+        padding: 10px 0px 10px 10px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    #phone
+    {
+        padding: 10px 0px 10px 10px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    input[type="date"]::-webkit-inner-spin-button,
+    input[type="date"]::-webkit-calendar-picker-indicator 
+    {
+        padding-left: 132px;
+        margin-right: -95px;
+    }
+
+    #name,
+    #email,
+    #price
+    {
+        padding: 10px 0px 10px 10px;
+        margin-top: 15px;
+        margin-right: 0;
+    }
+
+
+    .h_service
+    {
+        max-width: 150px;
+        width: 140px;
+    }
+    #h_service
+    {
+        margin-right: 5px;
+    }
+
+    #message
+    {
+        margin: 25px 0 15px 0px;
+        max-width: 400px;
+    }
+}
+@media screen and (min-width: 900px) 
+
+{
+    .b_form 
+    {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    
+    .b_form2 
+    {
+        margin-left: 100px;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    #time 
+    {
+        padding: 12px 55px 13px 10px;
+        margin-top: 25px;
+    }
+      
+    #services_drop 
+    {
+        padding: 12px 10px 13px 8px;
+        margin-top: 25px;
+    }
+
+    #date
+    {
+        padding: 10px 0px 10px 10px;
+        margin-top: 25px;
+        margin-right: 0;
+    }
+
+    #phone
+    {
+        padding: 10px 0px 10px 10px;
+        margin-top: 25px;
+        margin-right: 0;
+    }
+
+    input[type="date"]::-webkit-inner-spin-button,
+    input[type="date"]::-webkit-calendar-picker-indicator 
+    {
+        padding-left: 132px;
+        margin-right: -95px;
+    }
+
+    #name,
+    #email,
+    #price
+    {
+        padding: 10px 0px 10px 10px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+
+    .h_service
+    {
+        max-width: 150px;
+        width: 140px;
+    }
+    #h_service
+    {
+        margin-right: 5px;
+    }
+
+    #message
+    {
+        margin: 25px 0 15px 0px;
+        max-width: 400px;
+        
+    }
+}
+
+@media screen and (min-width: 1020px) 
+
+{
+    .b_form 
+    {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    
+    .b_form2 
+    {
+        margin-left: 140px;
+        font-size: 16px;
+    }
+    #time 
+    {
+        padding: 12px 130px 13px 10px;
+        margin-top: 20px;
+    }
+      
+    #services_drop 
+    {
+        padding: 12px 85px 13px 8px;
+        margin-top: 20px;
+    }
+
+    input[type="date"]::-webkit-inner-spin-button,
+    input[type="date"]::-webkit-calendar-picker-indicator 
+    {
+        padding-left: 132px;
+        margin-right: -95px;
+    }
+
+    #name,
+    #email,
+    #price,
+    #phone,
+    #date
+    {
+        padding: 10px 75px 10px 10px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+
+    .h_service
+    {
+        max-width: 150px;
+        width: 140px;
+    }
+    #h_service
+    {
+        margin-right: 5px;
+    }
+
+    #message
+    {
+        margin: 25px 0 15px 0px;
+        max-width: 550px;
+        
+    }
+}
+
+@media screen and (min-width: 1120px) 
+
+{
+    .b_form {
+        text-align: left;
+        margin: 30px 0;
+        font-family: "Rubik", sans-serif;
+      }
+      
+      input :focus {
+        border-color: rgb(27, 179, 179);
+      }
+      
+      label {
+        margin-top: 25px;
+      }
+      
+      input[type="date"]::-webkit-inner-spin-button,
+      input[type="date"]::-webkit-calendar-picker-indicator {
+        padding-left: 140px;
+        margin-right: -98px;
+      }
+      
+      #time {
+        padding: 12px 175px 13px 10px;
+        margin-top: 10px;
+      }
+      
+      #services_drop {
+        padding: 12px 130px 13px 8px;
+        margin-top: 10px;
+      }
+      
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      
+      #name,
+      #email,
+      #phone,
+      #date,
+      #price
+      {
+        padding: 10px 120px 10px 10px;
+        margin-top: 10px;
+      }
+      
+      
+      #h_service
+      {
+          margin-right: 5px;
+      }
+      
+      #message
+      {
+          margin: 20px 0 30px 0px;
+          max-width: 650px;
+          
+      }
+      
+      .sub_btn
+      {
+          max-width: 140px;
+      }
+      
+      #submit
+      {
+          padding: 10px 30px;
+          color: white;
+          background-color: rgb(27, 179, 179);
+          border: 2px solid white;
+          border-radius: 3px;
+      }
+      
+      .sub_btn #submit:hover
+      {
+        color: rgb(46, 46, 46);
+        background-color: transparent;
+        border-color: rgb(27, 179, 179);
+          
+      }
+      
+      #name:focus , #email:focus , #phone:focus , #date:focus , #time:focus , #services_drop:focus , #message:focus
+      {
+        outline: none;
+        border: 1px solid rgb(27, 179, 179);
+      }
+      
+      .b_form2 {
+        margin-left: 150px;
+      }
+}
+
+@media screen and (min-width: 1275px) 
+
+{
+    .b_form {
+        text-align: left;
+        margin: 30px 0;
+        font-family: "Rubik", sans-serif;
+      }
+      
+      input :focus {
+        border-color: rgb(27, 179, 179);
+      }
+      
+      label {
+        margin-top: 25px;
+      }
+      
+      input[type="date"]::-webkit-inner-spin-button,
+      input[type="date"]::-webkit-calendar-picker-indicator {
+        padding-left: 140px;
+        margin-right: -102px;
+      }
+      
+      #time {
+        padding: 12px 175px 13px 10px;
+        margin-top: 10px;
+      }
+      
+      #services_drop {
+        padding: 12px 130px 13px 8px;
+        margin-top: 10px;
+      }
+      
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      
+      #name,
+      #email,
+      #phone,
+      #date,
+      #price
+      {
+        padding: 10px 120px 10px 10px;
+        margin-top: 10px;
+      }
+      
+      
+      #h_service
+      {
+          margin-right: 5px;
+      }
+      
+      #message
+      {
+          margin: 20px 0 30px 0px;
+          max-width: 625px;
+          
+      }
+      
+      .sub_btn
+      {
+          max-width: 140px;
+      }
+      
+      #submit
+      {
+          padding: 10px 30px;
+          color: white;
+          background-color: rgb(27, 179, 179);
+          border: 1px solid white;
+          border-radius: 3px;
+      }
+      
+      .sub_btn #submit:hover
+      {
+        color: rgb(46, 46, 46);
+        background-color: transparent;
+        border-color: rgb(27, 179, 179);
+          
+      }
+      
+      #name:focus , #email:focus , #phone:focus , #date:focus , #time:focus , #services_drop:focus , #message:focus
+      {
+        outline: none;
+        border: 2px solid rgb(27, 179, 179);
+      }
+      
+      .b_form2 {
+        margin-left: 150px;
+      }
+}
+
+
+

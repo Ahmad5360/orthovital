@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+
+#gmap_canvas2
+{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.address
+{
+    text-align: justify;
+    margin: 20px 15px;
+}
+
+.address h5
+{
+    max-width: 100px;
+    margin-left: 25px;
+    margin-top: -25px;
+}
+
+.address h6
+{
+    color: rgb(163, 163, 163);
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.contact_sidebar
+{
+    background-color: #F8F9FA;
+    max-width: 300px;
+    border-top: 4px solid rgb(27, 179, 179);
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 10px;
+
+}
+
+#map
+{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#contact_heading
+{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#send
+{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(27, 179, 179);
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 10px; 
+}
+
+#send:hover
+{
+    color: rgb(46, 46, 46);
+    background-color: transparent;
+    border-color: rgb(27, 179, 179);
+}
+
+#comment2
+{
+    width:700px;
+    height: 200px;
+    margin-top: 15px;
+    padding: 5px 0 0 5px;
+    background-color: #F8F9FA;
+    border: 1px solid #a3a3a3 ;
+}
+
+#c_name2, #c_email2, #subject2,#phone2
+{
+    margin: 10px 6px 0 0;
+    padding: 8px 140px 8px 6px;
+    background-color: #F8F9FA;
+    border: 1px solid #a3a3a3 ;
+}
+#comment2:focus , #c_name2:focus, #c_email2:focus , #subject2:focus, #phone2:focus
+{
+    outline: none;
+    border: 2px solid rgb(27, 179, 179);
+}
+
+.c_col2
+{
+    margin-left: 80px;
+}
+
+@media screen and (min-width:350px) 
+
+{ 
+
+    .c_col2
+    {
+        margin-left: 0px;
+    }
+
+    #comment2
+    {
+        width:326px;
+        height: 200px;
+        margin-top: 15px;
+        padding: 5px 0 0 5px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+    }
+
+    #c_name2, #c_email2, #subject2,#phone2
+    {
+        margin: 10px 6px 0 0;
+        padding: 8px 140px 8px 6px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+    }  
+}
+
+@media screen and (min-width:400px) 
+
+{ 
+
+    .c_col2
+    {
+        margin-left: 0px;
+    }
+
+    #comment2
+    {
+        width:390px;
+        height: 200px;
+        margin-top: 15px;
+        padding: 5px 0 0 5px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+    }
+
+    #c_name2, #c_email2, #subject2,#phone2
+    {
+        margin: 10px 6px 0 0;
+        padding: 8px 205px 8px 6px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+    }  
+}
+
+@media screen and (min-width:700px) 
+
+{ 
+
+    .c_col2
+    {
+        margin-left: 60px;
+    }
+
+    #comment2
+    {
+        width:350px;
+        height: 120px;
+        margin-top: 15px;
+        padding: 5px 0 0 5px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+        font-size: 14px;
+    }
+
+    #c_name2, #c_email2, #subject2,#phone2
+    {
+        margin: 10px 6px 0 0;
+        padding: 6px 6px 6px 6px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+        font-size: 14px;
+    } 
+    #send
+    {
+        padding: 8px 15px;
+        margin-top: 10px;
+        font-size: 14px; 
+    } 
+}
+
+@media screen and (min-width:1020px) 
+
+{ 
+
+    .c_col2
+    {
+        margin-left: 100px;
+    }
+
+    #comment2
+    {
+        width:615px;
+        height: 150px;
+        margin-top: 15px;
+        padding: 5px 0 0 5px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+        
+    }
+
+    #c_name2, #c_email2, #subject2,#phone2
+    {
+        margin: 10px 6px 0 0;
+        padding: 8px 140px 8px 6px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+        
+    } 
+    #send
+    {
+        padding: 10px 20px;
+        margin-top: 10px;
+        
+    } 
+}
+
+@media screen and (min-width: 1230px) 
+{
+
+    .c_col2
+    {
+        margin-left: 60px;
+    }
+
+    #comment2
+    {
+        width:618px;
+        height: 200px;
+        margin-top: 15px;
+        padding: 5px 0 0 5px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+        font-size: 16px;
+        
+    }
+
+    #c_name2, #c_email2, #subject2,#phone2
+    {
+        margin: 10px 6px 0 0;
+        padding: 8px 120px 8px 6px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+        font-size: 16px;
+        
+    } 
+    #send
+    {
+        padding: 10px 20px;
+        margin-top: 10px;
+        
+    } 
+}
+
+@media screen and (min-width: 1281px) 
+{
+
+    .c_col2
+    {
+        margin-left: 60px;
+    }
+
+    #comment2
+    {
+        width:700px;
+        height: 200px;
+        margin-top: 15px;
+        padding: 5px 0 0 5px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+    }
+
+    #c_name2, #c_email2, #subject2,#phone2
+    {
+        margin: 10px 6px 0 0;
+        padding: 8px 160px 8px 6px;
+        background-color: #F8F9FA;
+        border: 1px solid #a3a3a3 ;
+    }
+    #send
+    {
+        padding: 10px 20px;
+        color: white;
+        background-color: rgb(27, 179, 179);
+        border: 1px solid white;
+        border-radius: 3px;
+        margin-top: 10px; 
+    }
+}
