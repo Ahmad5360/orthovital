@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact_section.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 
 export default function contact_section() {
   return (
@@ -14,6 +14,7 @@ export default function contact_section() {
           <iframe
             src="https://maps.google.com/maps?q=Steve%20Flanders%20Square%20New%20York,%20NY%2010038,%20USA&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
             id="gmap_canvas"
+            title="gmap_canvas"
           ></iframe>
         </div>
       </div>
